@@ -1,5 +1,6 @@
 📊 Projeto: Dados dos Trabalhos Acadêmicos do Centro de Informática da UFPB
 
+
 👥 Integrantes
 
 👩🏻‍💻 Clarice Lopes 
@@ -8,9 +9,11 @@
 
 👨🏻‍💻 Vinícius Mangueira
 
+
 🎯 Tema do Projeto
 
 Este projeto tem como objetivo coletar, analisar e visualizar dados dos trabalhos acadêmicos produzidos pelo Centro de Informática da Universidade Federal da Paraíba (UFPB). A pesquisa inclui artigos, dissertações, teses e projetos de pesquisa vinculados ao centro, permitindo uma melhor compreensão das áreas de estudo e colaborações institucionais.
+
 
 🛠️ Abordagem de Coleta de Dados
 
@@ -34,6 +37,7 @@ Para obter os dados necessários, utilizaremos as seguintes abordagens:
  Periódicos CAPES
 
  Diretório dos Grupos de Pesquisa CNPq
+
 
 🖥️ Tecnologias Utilizadas
 
