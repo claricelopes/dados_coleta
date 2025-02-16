@@ -5,7 +5,7 @@
 
 👩🏻‍💻 Clarice Lopes 
 
-👨🏻‍💻 Felipe Emitidio
+👨🏻‍💻 Felipe Emidio
 
 👨🏻‍💻 Vinícius Mangueira
 
