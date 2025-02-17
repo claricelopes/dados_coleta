@@ -5,7 +5,7 @@
 
 👩🏻‍💻 Clarice Lopes 
 
-👨🏻‍💻 Felipe Emidio
+👨🏻‍💻 Felipe Medeiros
 
 👨🏻‍💻 Vinícius Mangueira
 
@@ -22,8 +22,6 @@ Para obter os dados necessários, utilizaremos as seguintes abordagens:
 🕵️ Scraping: Extração automatizada de informações de sites como Lattes, Google Scholar e Diretório dos Grupos de Pesquisa (CNPq), utilizando bibliotecas como BeautifulSoup e Scrapy.
 
 🔌 APIs Públicas: Consulta a bases de dados estruturadas por meio de APIs sempre que possível, como a API do SciELO e outras plataformas acadêmicas.
-
-📂 Exportação Manual de Dados: Em casos onde APIs ou scraping não forem viáveis, faremos download de arquivos CSV, XML ou PDF fornecidos pelas plataformas.
 
 
 🔗 Links de Fontes de Dados
