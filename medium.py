@@ -1,31 +1,87 @@
 import requests
+from bs4 import BeautifulSoup
 
-# URL da API do Medium
-API_URL = "https://api.medium.com/v1/users/{user_id}/publications"
+# Lista de palavras-chave relacionadas ao CI da UFPB
+palavras_chave = [
+    "Centro de Informática UFPB", "Center for Informatics UFPB", 
+    "Computação UFPB", "Computer Science UFPB", 
+    "Inteligência Artificial UFPB", "Artificial Intelligence UFPB", 
+    "Ciência de Dados UFPB", "Data Science UFPB", 
+    "Machine Learning UFPB", "Visão Computacional UFPB", 
+    "Computer Vision UFPB", "Processamento de Linguagem Natural UFPB", 
+    "Natural Language Processing UFPB", "Engenharia de Software UFPB", 
+    "Software Engineering UFPB", "Desenvolvimento de Software UFPB", 
+    "Arquitetura de Software UFPB", "Software Architecture UFPB", 
+    "Sistemas Distribuídos UFPB", "Distributed Systems UFPB", 
+    "Segurança da Informação UFPB", "Information Security UFPB", 
+    "Criptografia UFPB", "Cryptography UFPB", "Redes de Computadores UFPB", 
+    "Computer Networks UFPB", "Computação em Nuvem UFPB", "Cloud Computing UFPB",
+    "Computação Gráfica UFPB", "Computer Graphics UFPB", 
+    "Interação Humano-Computador UFPB", "Human-Computer Interaction UFPB",
+    "Realidade Virtual UFPB", "Virtual Reality UFPB", 
+    "Realidade Aumentada UFPB", "Augmented Reality UFPB", 
+    "Computação Quântica UFPB", "Quantum Computing UFPB", 
+    "Otimização UFPB", "Optimization UFPB", 
+    "Computação Paralela UFPB", "Parallel Computing UFPB"
+]
 
-# Substitua {user_id} pelo ID do usuário ou nome da publicação
-user_id = "your_user_id_or_publication_id"  # Você precisará obter o ID do usuário ou da publicação
+# Função para fazer scraping no Medium
+def buscar_artigos_medium(palavras_chave):
+    artigos_encontrados = []
+    
+    for palavra in palavras_chave:
+        # URL de busca no Medium
+        url = f"https://medium.com/search?q={palavra.replace(' ', '%20')}"
+        
+        # Fazendo a requisição para a URL
+        response = requests.get(url)
+        
+        if response.status_code == 200:
+            # Usando BeautifulSoup para analisar a página
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Encontrando os artigos na página
+            artigos = soup.find_all('div', class_='postArticle')
+            
+            for artigo in artigos:
+                # Extraindo o título, link e resumo
+                titulo = artigo.find('h3')
+                if titulo:
+                    titulo = titulo.get_text()
+                else:
+                    titulo = 'Sem título disponível'
+                
+                # Buscando o link para o artigo
+                link = artigo.find('a', {'href': True})
+                if link:
+                    link = link['href']
+                else:
+                    link = 'Sem link disponível'
+                
+                # Buscando o resumo do artigo
+                resumo = artigo.find('p')
+                if resumo:
+                    resumo = resumo.get_text()
+                else:
+                    resumo = 'Sem resumo disponível'
+                
+                # Adicionando os dados do artigo à lista
+                artigos_encontrados.append({
+                    'Título': titulo,
+                    'Link': link,
+                    'Resumo': resumo
+                })
+        else:
+            print(f"Erro ao acessar {url}")
 
-# Token de acesso (substitua com seu token real)
-access_token = "your_access_token"  # Substitua pelo seu token de acesso
+    return artigos_encontrados
 
-# Cabeçalhos para autenticação
-headers = {
-    'Authorization': f'Bearer {access_token}',
-    'Content-Type': 'application/json'
-}
+# Executando a busca
+artigos = buscar_artigos_medium(palavras_chave)
 
-# Fazendo a requisição para obter as publicações do usuário
-response = requests.get(f"{API_URL.replace('{user_id}', user_id)}", headers=headers)
-
-# Verificando a resposta
-if response.status_code == 200:
-    publications = response.json()
-    print("Publicações encontradas:")
-    for pub in publications['data']:
-        print(f"Name: {pub['name']}")
-        print(f"URL: {pub['url']}")
-        print("-" * 40)
-else:
-    print(f"Erro ao acessar a API do Medium. Status Code: {response.status_code}")
-
+# Exibindo os artigos encontrados
+for artigo in artigos:
+    print(f"Título: {artigo['Título']}")
+    print(f"Link: {artigo['Link']}")
+    print(f"Resumo: {artigo['Resumo']}")
+    print("-" * 50)
