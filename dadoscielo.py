@@ -10,9 +10,9 @@ url = f"{base_url}/api/v1/search/?q={search_query}"
 # Realiza a requisição GET para obter os resultados
 response = requests.get(url)
 
-# Verifica se a requisição foi bem-sucedida
+
 if response.status_code == 200:
-    data = response.json()  # Converte a resposta para JSON
+    data = response.json() 
     for article in data['results']:
         title = article['title']
         link = article['link']
