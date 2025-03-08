@@ -26,20 +26,22 @@ busca = ("Centro de Informática UFPB OR 'Center for Informatics UFPB' OR "
 
 resultados_busca = sch.search_pubs(busca)
 
-for i in range(100): 
-    try:
-        artigo = next(resultados_busca)
-        titulo = artigo['bib']['title']
-        autores = artigo['bib'].get('author', 'N/A')
-        ano = artigo['bib'].get('pub_year', 'N/A')
-        link = artigo.get('pub_url', 'Sem link disponível')
+with open("resultados/googleescola.txt", "w", encoding="utf-8") as arquivo:
+    for i in range(100): 
+        try:
+            artigo = next(resultados_busca)
+            titulo = artigo['bib']['title']
+            autores = artigo['bib'].get('author', 'N/A')
+            ano = artigo['bib'].get('pub_year', 'N/A')
+            link = artigo.get('pub_url', 'Sem link disponível')
 
-        print(f"Título: {titulo}")
-        print(f"Autores: {autores}")
-        print(f"Ano: {ano}")
-        print(f"Link: {link}")
-        print("-" * 50)
+            resultado = (f"Título: {titulo}\n"
+                         f"Autores: {autores}\n"
+                         f"Ano: {ano}\n"
+                         f"Link: {link}\n"
+                         f"{'-' * 50}\n")
+            arquivo.write(resultado)
 
-    except StopIteration:
-        print("Sem mais resultados disponíveis.")
-        break
+        except StopIteration:
+            print("Sem mais resultados disponíveis.")
+            break
