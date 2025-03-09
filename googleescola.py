@@ -55,8 +55,7 @@ with open('dados_coletados.csv', mode='w', newline='', encoding='utf-8') as csv_
             print(f"Link: {link}")
             print("-" * 50)
 
-            # Temporizador de 10 segundos entre as requisições
-            time.sleep(10)
+
 
         except StopIteration:
             print("Sem mais resultados disponíveis.")
