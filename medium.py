@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+import time
+import random
 
 # Lista de palavras-chave relacionadas ao CI da UFPB
 palavras_chave = [
@@ -25,55 +27,51 @@ palavras_chave = [
     "Computação Paralela UFPB", "Parallel Computing UFPB"
 ]
 
-# Função para fazer scraping no Medium
+# Função para fazer scraping no Medium com tempo de espera
+
 def buscar_artigos_medium(palavras_chave):
     artigos_encontrados = []
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
     
     for palavra in palavras_chave:
-        # URL de busca no Medium
         url = f"https://medium.com/search?q={palavra.replace(' ', '%20')}"
+        print(f"Buscando artigos para: {palavra}")
         
-        # Fazendo a requisição para a URL
-        response = requests.get(url)
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                artigos = soup.find_all('div', class_='postArticle')
+                
+                for artigo in artigos:
+                    titulo_tag = artigo.find('h3')
+                    titulo = titulo_tag.get_text() if titulo_tag else 'Sem título disponível'
+                    
+                    link_tag = artigo.find('a', {'href': True})
+                    link = link_tag['href'] if link_tag else 'Sem link disponível'
+                    
+                    resumo_tag = artigo.find('p')
+                    resumo = resumo_tag.get_text() if resumo_tag else 'Sem resumo disponível'
+                    
+                    artigos_encontrados.append({
+                        'Título': titulo,
+                        'Link': link,
+                        'Resumo': resumo
+                    })
+            else:
+                print(f"Erro ao acessar {url} - Código {response.status_code}")
         
-        if response.status_code == 200:
-            # Usando BeautifulSoup para analisar a página
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Encontrando os artigos na página
-            artigos = soup.find_all('div', class_='postArticle')
-            
-            for artigo in artigos:
-                # Extraindo o título, link e resumo
-                titulo = artigo.find('h3')
-                if titulo:
-                    titulo = titulo.get_text()
-                else:
-                    titulo = 'Sem título disponível'
-                
-                # Buscando o link para o artigo
-                link = artigo.find('a', {'href': True})
-                if link:
-                    link = link['href']
-                else:
-                    link = 'Sem link disponível'
-                
-                # Buscando o resumo do artigo
-                resumo = artigo.find('p')
-                if resumo:
-                    resumo = resumo.get_text()
-                else:
-                    resumo = 'Sem resumo disponível'
-                
-                # Adicionando os dados do artigo à lista
-                artigos_encontrados.append({
-                    'Título': titulo,
-                    'Link': link,
-                    'Resumo': resumo
-                })
-        else:
-            print(f"Erro ao acessar {url}")
-
+        except requests.exceptions.RequestException as e:
+            print(f"Erro na requisição: {e}")
+        
+        # Aguarda um tempo aleatório entre 5 e 15 segundos para evitar bloqueios
+        tempo_espera = random.uniform(5, 15)
+        print(f"Aguardando {tempo_espera:.2f} segundos antes da próxima busca...")
+        time.sleep(tempo_espera)
+        
     return artigos_encontrados
 
 # Executando a busca
