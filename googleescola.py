@@ -1,9 +1,12 @@
+import csv
+import time
 from scholarly import scholarly as sch
 
-# Adicionando termos de pesquisa
+# Adicionando termos de pesquisa em português, espanhol, francês e alemão
 busca = ("Centro de Informática UFPB OR 'Center for Informatics UFPB' OR "
          "'Computação UFPB' OR 'Computer Science UFPB' OR "
          "🧠 'Inteligência Artificial e Ciência de Dados' OR 'Artificial Intelligence UFPB' OR "
+         "'Inteligencia Artificial' OR 'Intelligence Artificielle' OR 'Künstliche Intelligenz' OR "
          "'Aprendizado de Máquina UFPB' OR 'Machine Learning UFPB' OR "
          "'Ciência de Dados UFPB' OR 'Data Science UFPB' OR "
          "'Visão Computacional UFPB' OR 'Computer Vision UFPB' OR "
@@ -26,20 +29,35 @@ busca = ("Centro de Informática UFPB OR 'Center for Informatics UFPB' OR "
 
 resultados_busca = sch.search_pubs(busca)
 
-for i in range(100): 
-    try:
-        artigo = next(resultados_busca)
-        titulo = artigo['bib']['title']
-        autores = artigo['bib'].get('author', 'N/A')
-        ano = artigo['bib'].get('pub_year', 'N/A')
-        link = artigo.get('pub_url', 'Sem link disponível')
+# Criar ou abrir um arquivo CSV para escrita
+with open('dados_coletados.csv', mode='w', newline='', encoding='utf-8') as csv_file:
+    fieldnames = ['Título', 'Autores', 'Ano', 'Link']
+    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+    
+    # Escrever o cabeçalho do CSV
+    writer.writeheader()
 
-        print(f"Título: {titulo}")
-        print(f"Autores: {autores}")
-        print(f"Ano: {ano}")
-        print(f"Link: {link}")
-        print("-" * 50)
+    for i in range(100): 
+        try:
+            artigo = next(resultados_busca)
+            titulo = artigo['bib']['title']
+            autores = artigo['bib'].get('author', 'N/A')
+            ano = artigo['bib'].get('pub_year', 'N/A')
+            link = artigo.get('pub_url', 'Sem link disponível')
 
-    except StopIteration:
-        print("Sem mais resultados disponíveis.")
-        break
+            # Escrever os dados no CSV
+            writer.writerow({'Título': titulo, 'Autores': autores, 'Ano': ano, 'Link': link})
+
+            # Exibir os resultados no console
+            print(f"Título: {titulo}")
+            print(f"Autores: {autores}")
+            print(f"Ano: {ano}")
+            print(f"Link: {link}")
+            print("-" * 50)
+
+            # Temporizador de 10 segundos entre as requisições
+            time.sleep(10)
+
+        except StopIteration:
+            print("Sem mais resultados disponíveis.")
+            break
