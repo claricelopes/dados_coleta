@@ -32,6 +32,7 @@ busca = ("Centro de Informática UFPB OR 'Center for Informatics UFPB' OR "
 # Inicializando a busca
 resultados_busca = sch.search_pubs(busca)
 
+<<<<<<< HEAD:googleescola.py
 # Criando e abrindo o arquivo CSV para escrita
 with open(arquivo_csv, mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
@@ -40,11 +41,17 @@ with open(arquivo_csv, mode='w', newline='', encoding='utf-8') as file:
     while True:
         try:
             # Pegando próximo artigo
+=======
+with open("resultados/googleescola.txt", "w", encoding="utf-8") as arquivo:
+    for i in range(100): 
+        try:
+>>>>>>> c18fd32e03694e38f0bdcb53c26efb9ab5783215:captura_dados/googleescola.py
             artigo = next(resultados_busca)
             titulo = artigo['bib']['title']
             autores = artigo['bib'].get('author', 'N/A')
             ano = artigo['bib'].get('pub_year', 'N/A')
             link = artigo.get('pub_url', 'Sem link disponível')
+<<<<<<< HEAD:googleescola.py
             
             # Escrevendo no CSV
             writer.writerow([titulo, autores, ano, link])
@@ -64,3 +71,16 @@ with open(arquivo_csv, mode='w', newline='', encoding='utf-8') as file:
             break
 
 print(f"Coleta finalizada. Dados salvos em {arquivo_csv}")
+=======
+
+            resultado = (f"Título: {titulo}\n"
+                         f"Autores: {autores}\n"
+                         f"Ano: {ano}\n"
+                         f"Link: {link}\n"
+                         f"{'-' * 50}\n")
+            arquivo.write(resultado)
+
+        except StopIteration:
+            print("Sem mais resultados disponíveis.")
+            break
+>>>>>>> c18fd32e03694e38f0bdcb53c26efb9ab5783215:captura_dados/googleescola.py
