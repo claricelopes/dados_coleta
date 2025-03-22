@@ -51,6 +51,6 @@ O resultado do script é um arquivo csv com informações coletadas em cada arti
 #Sobre a coleta
 
 Para obter os artigos produzidos pelos professores do Centro de Infomática nós utilizamos um script python que navega até o site Google Scholar e pesquisa os nomes passados em uma lista,
-a partir disso através dos XPATHs do html do site os dados desejados são guardados. Após a coleta as informações são salvas em um arquivo csv que está disponível no Google Drive, nesse caminho: https://drive.google.com/drive/folders/1FzNxWKGSvls2wSOYpPdSy_WcuWQH6c_m?usp=drive_link
+a partir disso através dos XPATHs do html do site os dados desejados são guardados. Após a coleta as informações são salvas em um arquivo csv que está disponível na pasta "resultados" dentro deste mesmo repositório git.
 
 
