@@ -1,0 +1,121 @@
+                    Professor                       Quantidade de Artigos
+00        BRUNO JEFFERSON DE SOUSA PESSOA                      0
+01             APARECIDO JESUINO DE SOUZA                     46
+02                    BRUNO PETRATO BRUCK                     22
+03               CAMILA MARA VITAL BARROS                     46
+04           CARLOS ALBERTO NUNES MACHADO                      0
+05   CARLOS EDUARDO COELHO FREIRE BATISTA                      0
+06               CHRISTIAN AZAMBUJA PAGOT                      0
+07        CLAUIRTON DE ALBUQUERQUE SIEBRA                    127
+08  DANIELA COELHO BATISTA GUEDES PEREIRA                      0
+09            DANIELLE ROUSY DIAS RICARTE                      0
+
+10              ADRIANA CARLA DAMASCENO                      0
+11        ALAN KELON OLIVEIRA DE MORAES                      0
+12         ALISSON VASCONCELOS DE BRITO                    150
+13  ALVARO FRANCISCO DE CASTRO MEDEIROS                      0
+14               ANA PAULA PINTADO WYSE                      0
+15                    ANAND SUBRAMANIAN                    170
+16                 ANDREA VANESSA ROCHA                     25
+17             ANDREI DE ARAUJO FORMIGA                      0
+18       ANTONIO JOSE BONESS DOS SANTOS                      0
+
+19                        DERZU OMAIA                     13
+20                   ED PORTO BEZERRA                    105
+21   ELIZABET MARIA SPOHR DE MEDEIROS                      1
+22           EUDISLEY GOMES DOS ANJOS                     39
+23          EWERTON MONTEIRO SALVADOR                     22
+24       FELIPE ANTONIO GARCIA MORENO                      1
+25             FERNANDO MENEZES MATOS                     57
+26  FRANCISCO DE ASSIS COUTINHO SOUTO                      1
+27     GILBERTO FARIAS DE SOUSA FILHO                      1
+28         GIORGIA DE OLIVEIRA MATTOS                      1
+
+29               GLEDSON ELIAS DA SILVEIRA                      0
+30              GUIDO LEMOS DE SOUZA FILHO                    132
+31     GUSTAVO CHARLES PEIXOTO DE OLIVEIRA                      0
+32    GUSTAVO HENRIQUE MATOS BEZERRA MOTTA                     83
+33                HAMILTON SOARES DA SILVA                      0
+34  HUGO LEONARDO DAVI DE SOUZA CAVALCANTE                      0
+35             IGUATEMI EDUARDO DA FONSECA                    135
+36                    JAIRO ROCHA DE FARIA                      0
+37                          JAN SOKOLOWSKI                      0
+38              JOSE ANTONIO GOMES DE LIMA                      0
+
+39        JOSE ANTONIO GOMES DE LIMA                      0
+40     JOSE MIGUEL AROZTEGUI MASSERA                      0
+41            JOSILENE AIRES MOREIRA                     59
+42  KELY DIANA VILLACORTA VILLACORTA                      0
+43           LEANDRO CARLOS DE SOUZA                     26
+44            LEONARDO VIDAL BATISTA                    138
+45        LILIANE DOS SANTOS MACHADO                    316
+46        LINCOLN DAVID NERY E SILVA                      0
+47  LUCIDIO DOS ANJOS FORMIGA CABRAL                     80
+48         MARDSON FREITAS DE AMORIM                      0
+
+49       MOISES DANTAS DOS SANTOS                      0
+50   NATASHA CORREIA QUEIROZ LINO                     52
+51                  RAONI KULESZA                     58
+52  ROBERTO QUIRINO DO NASCIMENTO                      0
+53     RUY ALBERTO CORREA ALTAFIM                    286
+54     RUY ALBERTO PISANI ALTAFIM                      0
+55     SERGIO DE CARVALHO BEZERRA                      0
+56          TATIANA ARAUJO SIMOES                      0
+57  TEOBALDO LEITE BULHÕES JUNIOR                      0
+58    TIAGO PEREIRA DO NASCIMENTO                      0
+
+59             THAIS GAUDENCIO DO REGO                      0
+60     TIAGO MARITAN UGULINO DE ARAUJO                     74
+61                     VALDECIR BECKER                    120
+62                         VIVEK NIGAM                    160
+63  VITOR MENEGHETTI UGULINO DE ARAUJO                      0
+64                      YURI MALHEIROS                     32
+65            YUSKA PAOLA COSTA AGUIAR                     86
+
+
+-------------//---------------
+TOTAL ARTIGOS - 2.501
+PROFS QUE PRODUZIRAM - 33/66
+MEDIA DE ARTIGOS - 75,7
+
+
+------RANKING--------
+                Professor                    Quantidade de Artigos
+0       LILIANE DOS SANTOS MACHADO                    316
+1       RUY ALBERTO CORREA ALTAFIM                    286
+2                ANAND SUBRAMANIAN                    170
+3                      VIVEK NIGAM                    160
+4     ALISSON VASCONCELOS DE BRITO                    150
+5           LEONARDO VIDAL BATISTA                    138
+6      IGUATEMI EDUARDO DA FONSECA                    135
+7       GUIDO LEMOS DE SOUZA FILHO                    132
+8  CLAUIRTON DE ALBUQUERQUE SIEBRA                    127
+9                  VALDECIR BECKER                    120
+
+
+------TOP 25 PALAVRAS CHAVE-------
+sistema: 151
+digitais: 147
+problema: 142
+virtuais: 140
+análise: 112
+realidade: 110
+avaliação: 103
+redes: 81
+treinamento: 65
+tv: 64
+ensino: 46
+segurança: 41
+modelo: 38
+programas: 37
+roteamento: 36
+televisão: 35
+estudo: 35
+veículo: 34
+confuso: 33
+brasileiro: 33
+saúde: 30
+suporte: 29
+simuladores: 29
+audiovisual: 29
+on-line: 28
