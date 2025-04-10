@@ -1,44 +1,61 @@
-import time
 from scholarly import scholarly
-from nomes_professores import obter_nomes_professores
+import csv
+import time
 
-# Obtendo a lista de professores
-professores = obter_nomes_professores()
+# Lista com apenas Tiago Pereira do Nascimento
+professores = [
+    {"nome": "TIAGO PEREIRA DO NASCIMENTO", "user_id": "k5hP6gUAAAAJ"}
+]
 
-def buscar_artigos(professor):
-    print(f"\n🔍 Buscando artigos de {professor}...")
+# Criar novo arquivo CSV com cabeçalho
+with open("artigomais.csv", "w", newline="", encoding="utf-8") as csvfile:
+    campos = ["Professor", "Artigo"]
+    writer = csv.DictWriter(csvfile, fieldnames=campos)
+    writer.writeheader()
 
-    search_query = scholarly.search_author(professor)
+# Coletar artigos do professor
+for prof in professores:
+    nome = prof["nome"]
+    user_id = prof["user_id"]
+
+    print(f"\n📚 Coletando artigos de {nome}...")
     try:
-        while True:
-            author = next(search_query)  # Pega o próximo autor encontrado
-            
-            # Verifica se o autor é da UFPB
-            if "UFPB" in author.get('affiliation', ''):
-                author_filled = scholarly.fill(author, sections=["publications"])
-                artigos = [
-                    (pub['bib']['title'], pub['bib'].get('year', 'Ano desconhecido'))
-                    for pub in author_filled.get('publications', [])
-                ]
-
-                if artigos:
-                    print(f"✅ Artigos de {professor} (UFPB):")
-                    for titulo, ano in artigos:
-                        print(f"   - {titulo} ({ano})")
-                else:
-                    print(f"⚠️ Nenhum artigo encontrado para {professor}.")
-                break  # Sai do loop ao encontrar um professor da UFPB
-    except StopIteration:
-        print(f"❌ Nenhum perfil encontrado para {professor}.")
+        autor = scholarly.search_author_id(user_id)
+        autor = scholarly.fill(autor, sections=["publications"])
     except Exception as e:
-        print(f"❌ Erro ao buscar {professor}: {str(e)}")
-    
-    # Evita bloqueios do Google Scholar
-    time.sleep(10)
+        print(f"❌ Erro ao acessar perfil de {nome}: {e}")
+        continue
 
+    dados_csv = []
 
-# Executando a busca professor por professor
-for professor in professores:
-    buscar_artigos(professor)
+    for i, pub in enumerate(autor.get("publications", [])):
+        try:
+            print(f"→ Coletando artigo {i + 1}: {pub['bib']['title']}")
+            artigo_completo = scholarly.fill(pub)
+            titulo = artigo_completo.get("bib", {}).get("title", "Sem título")
+            dados_csv.append({"Professor": nome, "Artigo": titulo})
 
+            # Pausa entre requisições
+            time.sleep(3)
+
+            # Pausa maior a cada 10 artigos
+            if (i + 1) % 10 == 0:
+                print("⏸ Pausa de 30 segundos...")
+                time.sleep(30)
+
+        except Exception as e:
+            print(f"⚠️ Erro ao coletar artigo {i + 1}: {e}")
+            continue
+
+    if not dados_csv:
+        dados_csv.append({"Professor": nome, "Artigo": "Nenhuma publicação encontrada"})
+
+    with open("artigomais.csv", "a", newline="", encoding="utf-8") as csvfile:
+        campos = ["Professor", "Artigo"]
+        writer = csv.DictWriter(csvfile, fieldnames=campos)
+        writer.writerows(dados_csv)
+
+    print(f"✅ {len(dados_csv)} artigo(s) de {nome} salvos no CSV.")
+
+print("\n🎉 Coleta finalizada!")
 
