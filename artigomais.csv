@@ -1,135 +1,217 @@
 Professor,Artigo
-TIAGO PEREIRA DO NASCIMENTO,Position and attitude control of multi-rotor aerial vehicles: A survey
-TIAGO PEREIRA DO NASCIMENTO,Nonholonomic mobile robots' trajectory tracking model predictive control: a survey
-TIAGO PEREIRA DO NASCIMENTO,Robotic mobile fulfillment systems: A survey on recent developments and research opportunities
-TIAGO PEREIRA DO NASCIMENTO,Nonlinear model predictive control for trajectory tracking of nonholonomic mobile robots: A modified approach
-TIAGO PEREIRA DO NASCIMENTO,Multi-robot nonlinear model predictive formation control: Moving target and target absence
-TIAGO PEREIRA DO NASCIMENTO,Kalman filter with dynamical setting of optimal process noise covariance
-TIAGO PEREIRA DO NASCIMENTO,Aerodynamic effects compensation on multi-rotor UAVs based on a neural network control allocation approach
-TIAGO PEREIRA DO NASCIMENTO,MRS modular UAV hardware platforms for supporting research in real-world outdoor and indoor environments
-TIAGO PEREIRA DO NASCIMENTO,Formation control driven by cooperative object tracking
-TIAGO PEREIRA DO NASCIMENTO,Multi-robot nonlinear model predictive formation control: the obstacle avoidance problem
-TIAGO PEREIRA DO NASCIMENTO,A novel approach for speed and failure detection in brushless DC motors based on chaos
-TIAGO PEREIRA DO NASCIMENTO,Formation control of unmanned micro aerial vehicles for straitened environments
-TIAGO PEREIRA DO NASCIMENTO,Experimental evaluation of ROS compatible SLAM algorithms for RGB-D sensors
-TIAGO PEREIRA DO NASCIMENTO,MRS drone: A modular platform for real-world deployment of aerial multi-robot systems
-TIAGO PEREIRA DO NASCIMENTO,Perception-driven motion control based on stochastic nonlinear model predictive controllers
-TIAGO PEREIRA DO NASCIMENTO,Perception-driven multi-robot formation control
-TIAGO PEREIRA DO NASCIMENTO,Stairs and doors recognition as natural landmarks based on clouds of 3D edge-points from RGB-D sensors for mobile robot localization
-TIAGO PEREIRA DO NASCIMENTO,Side-pull maneuver: A novel control strategy for dragging a cable-tethered load of unknown weight using a UAV
-TIAGO PEREIRA DO NASCIMENTO,Landing a UAV in harsh winds and turbulent open waters
-TIAGO PEREIRA DO NASCIMENTO,A novel approach for brushless DC motors characterization in drones based on chaos
-TIAGO PEREIRA DO NASCIMENTO,Intelligent state changing applied to multi-robot systems
-TIAGO PEREIRA DO NASCIMENTO,Self-organized uav flocking based on proximal control
-TIAGO PEREIRA DO NASCIMENTO,A multi-UAV system for detection and elimination of multiple targets
-TIAGO PEREIRA DO NASCIMENTO,Admittance force-based uav-wall stabilization and press exertion for documentation and inspection of historical buildings
-TIAGO PEREIRA DO NASCIMENTO,A multi-layer software architecture for aerial cognitive multi-robot systems in power line inspection tasks
-TIAGO PEREIRA DO NASCIMENTO,Safe documentation of historical monuments by an autonomous unmanned aerial vehicle
-TIAGO PEREIRA DO NASCIMENTO,UAV vision-based nonlinear formation control applied to inspection of electrical power lines
-TIAGO PEREIRA DO NASCIMENTO,Nonlinear model predictive formation control: An iterative weighted tuning approach
-TIAGO PEREIRA DO NASCIMENTO,Multi-robot systems formation control with obstacle avoidance
-TIAGO PEREIRA DO NASCIMENTO,Controle de trajetória de robôs móveis omni-direcionais: uma abordagem multivariável
-TIAGO PEREIRA DO NASCIMENTO,Multi-robot sensor fusion target tracking with observation constraints
-TIAGO PEREIRA DO NASCIMENTO,Safe tightly-constrained uav swarming in gnss-denied environments
-TIAGO PEREIRA DO NASCIMENTO,Modeling omnidirectional mobile robots: an approach using SimTwo
-TIAGO PEREIRA DO NASCIMENTO,Dynamic leader allocation in multi-robot systems based on nonlinear model predictive control
-TIAGO PEREIRA DO NASCIMENTO,A set of novel modifications to improve algorithms from the A* family applied in mobile robotics
-TIAGO PEREIRA DO NASCIMENTO,Motion and Teaching of a NAO Robot
-TIAGO PEREIRA DO NASCIMENTO,An open-design warehouse mobile robot
-TIAGO PEREIRA DO NASCIMENTO,Testing real-time embedded systems using high level architecture
-TIAGO PEREIRA DO NASCIMENTO,A new cost function heuristic applied to A* based path planning in static and dynamic environments
-TIAGO PEREIRA DO NASCIMENTO,Coordinated multi-robot formation control
-TIAGO PEREIRA DO NASCIMENTO,Embedded fast nonlinear model predictive control for micro aerial vehicles
-TIAGO PEREIRA DO NASCIMENTO,A 3d anti-collision system based on artificial potential field method for a mobile robot
-TIAGO PEREIRA DO NASCIMENTO,Verification of embedded system designs through hardware-software co-simulation
-TIAGO PEREIRA DO NASCIMENTO,Leader following formation control for omnidirectional mobile robots: the target chasing problem
-TIAGO PEREIRA DO NASCIMENTO,Controlling a swarm of unmanned aerial vehicles using full-body k-nearest neighbor based action classifier
-TIAGO PEREIRA DO NASCIMENTO,A project of an embedded control system for autonomous quadrotor UAVs
-TIAGO PEREIRA DO NASCIMENTO,Axebot robot the mechanical design for an autonomous omnidirectional mobile robot
-TIAGO PEREIRA DO NASCIMENTO,Heterogeneous multi-robot systems approach for warehouse inventory management
-TIAGO PEREIRA DO NASCIMENTO,TurtleUI: A generic graphical user interface for robot control
-TIAGO PEREIRA DO NASCIMENTO,Activity recognition in a physical interactive robogame
-TIAGO PEREIRA DO NASCIMENTO,Online learning and teaching of emergent behaviors in multi-robot teams
-TIAGO PEREIRA DO NASCIMENTO,Learning and mining player motion profiles in physically interactive robogames
-TIAGO PEREIRA DO NASCIMENTO,Modeling player activity in a physical interactive robot game scenario
-TIAGO PEREIRA DO NASCIMENTO,Testing real-time embedded systems with hardware-in-the-loop simulation using high level architecture
-TIAGO PEREIRA DO NASCIMENTO,Omnidirectional mobile robot’s multivariable trajectory tracking control: a robustness analysis
-TIAGO PEREIRA DO NASCIMENTO,Estimating the loss of effectiveness of UAV actuators in the presence of aerodynamic effects
-TIAGO PEREIRA DO NASCIMENTO,Fast nonlinear model predictive control for very-small aerial vehicles
-TIAGO PEREIRA DO NASCIMENTO,N-learning: An approach for learning and teaching skills in multirobot teams
-TIAGO PEREIRA DO NASCIMENTO,Iterative weighted tuning for a nonlinear model predictive formation control
-TIAGO PEREIRA DO NASCIMENTO,5dpo 2011: Team description paper
-TIAGO PEREIRA DO NASCIMENTO,A PSO-based tuning algorithm for quadcopter controllers
-TIAGO PEREIRA DO NASCIMENTO,Object subtraction planar rgb-d slam
-TIAGO PEREIRA DO NASCIMENTO,A novel approach for natural landmarks identification using RGB-D sensors
-TIAGO PEREIRA DO NASCIMENTO,A simplified cost function heuristic applied to the A*-based path planning
-TIAGO PEREIRA DO NASCIMENTO,Energy footprint framework: A pathway toward smart grid sustainability
-TIAGO PEREIRA DO NASCIMENTO,An improved spanning tree-based algorithm for coverage of large areas using multi-UAV systems
-TIAGO PEREIRA DO NASCIMENTO,"Síntese, transferência e implementação de evidência qualitativa para a melhoria das práticas e da decisão clínica"
-TIAGO PEREIRA DO NASCIMENTO,A system embedded in small unmanned aerial vehicle for vigor analysis of vegetation.
-TIAGO PEREIRA DO NASCIMENTO,Distributed object subtraction 3d mapping
-TIAGO PEREIRA DO NASCIMENTO,Analysis of prediction models for multi-robot system nmpfc
-TIAGO PEREIRA DO NASCIMENTO,A modified A* application to a highly dynamic unstructured environment
-TIAGO PEREIRA DO NASCIMENTO,A Distributed Approach for the Implementation of Geometric Reconstruction-Based Visual SLAM Systems
-TIAGO PEREIRA DO NASCIMENTO,Stochastic nonlinear model predictive mobile robot motion control
-TIAGO PEREIRA DO NASCIMENTO,A distributed platform for integration of fpga-based embedded systems
-TIAGO PEREIRA DO NASCIMENTO,Program Equivalence Using Neural Networks
-TIAGO PEREIRA DO NASCIMENTO,Preparing for a Digital Future: Student Perceptions of Innovation and Technology in Nursing
-TIAGO PEREIRA DO NASCIMENTO,Spaceynet: A novel approach to pose and depth-scene regression simultaneously
-TIAGO PEREIRA DO NASCIMENTO,Expanding the Coverage Area of a Formation of Robots Through a Mesh Network and a Real Time Database Middleware
-TIAGO PEREIRA DO NASCIMENTO,A generic framework for multi-robot formation control
-TIAGO PEREIRA DO NASCIMENTO,A Minimalistic 3D Self-Organized UAV Flocking Approach for Desert Exploration
-TIAGO PEREIRA DO NASCIMENTO,Imbalance fault detection in BLDC motors through audio signals using the density of maxima and CNN
-TIAGO PEREIRA DO NASCIMENTO,Nurses’ experiences of care in Portuguese nursing homes during the COVID-19 pandemic: A focus group study
-TIAGO PEREIRA DO NASCIMENTO,Transitional care model
-TIAGO PEREIRA DO NASCIMENTO,An Environment for Indoor Testing and Diagnosis of Drones using Co-simulation
-TIAGO PEREIRA DO NASCIMENTO,Approach to Indoor Location of Mobile Robot Using Wi-Fi Fingerprint and a Variant of the K-NN Method
-TIAGO PEREIRA DO NASCIMENTO,Acceleration of Cellular Automata through Parallel Computing with OpenCL
-TIAGO PEREIRA DO NASCIMENTO,Integration of robot operating system and ptolemy for design of real-time multi-robots environments
-TIAGO PEREIRA DO NASCIMENTO,The Integration of GPU-based and Heterogeneous Devices using HLA
-TIAGO PEREIRA DO NASCIMENTO,HEALTHY PLACES: THE RELATIONSHIP BETWEEN ARCHITECTURE AND NURSING
-TIAGO PEREIRA DO NASCIMENTO,OMNIDIRECTIONAL MOBILE ROBOT’S TRAJECTORY TRACKING CONTROL SYSTEM: A MULTIVARIABLE APPROACH
-TIAGO PEREIRA DO NASCIMENTO,"Microalgas como matéria-prima para biocombustíveis: importância no cenário atual, principais entraves e resultados promissores na Bahia"
-TIAGO PEREIRA DO NASCIMENTO,Uma abordagem multivariável para modelagem de robôs móveis omnidirecionais
-TIAGO PEREIRA DO NASCIMENTO,Supervisory Control System for Cooperative Agents
-TIAGO PEREIRA DO NASCIMENTO,CurviTrack: Curvilinear Trajectory Tracking for High-Speed Chase of a USV
-TIAGO PEREIRA DO NASCIMENTO,Psychiatric Home Hospitalization: The Role of Mental Health Nurses—A Scoping Review
-TIAGO PEREIRA DO NASCIMENTO,Proximal Control of UAVs with Federated Learning for Human-Robot Collaborative Domains
-TIAGO PEREIRA DO NASCIMENTO,Proximal Control of UAVs With Federated Learning for Human-Robot Collaborative Domains
-TIAGO PEREIRA DO NASCIMENTO,Intuitive Human-Robot Interface: A 3-Dimensional Action Recognition and UAV Collaboration Framework
-TIAGO PEREIRA DO NASCIMENTO,A Generalized Thrust Estimation and Control Approach for Multirotors Micro Aerial Vehicles
-TIAGO PEREIRA DO NASCIMENTO,Robotics Meets AI and Vision in South America (Topical Collection)
-TIAGO PEREIRA DO NASCIMENTO,O CUIDADO TRANSICIONAL E AS OPORTUNIDADES PARA O ENVELHECIMENTO ATIVO
-TIAGO PEREIRA DO NASCIMENTO,and Technology in Nursing
-TIAGO PEREIRA DO NASCIMENTO,Innovation in nursing education–the perceptions of the undergraduate students
-TIAGO PEREIRA DO NASCIMENTO,Vision-based K-Nearest Neighbor Approach for Multiple Search and Landing with Energy Constraints
-TIAGO PEREIRA DO NASCIMENTO,Contributos da formação pós-graduada na prevenção das lesões músculo-esqueléticas ligadas ao trabalho: Um focus group
-TIAGO PEREIRA DO NASCIMENTO,Gerir o risco de queda
-TIAGO PEREIRA DO NASCIMENTO,Comparison Between Two Recurrent Multitasking Networks for Robot Relocation
-TIAGO PEREIRA DO NASCIMENTO,Natalnet Associate Labs
-TIAGO PEREIRA DO NASCIMENTO,Bem-estar em pessoas idosas institucionalizadas durante a pandemia: Uma revisão integrativa
-TIAGO PEREIRA DO NASCIMENTO,Pure Perception Motion Control based on Stochastic Nonlinear Model Predictive Control
-TIAGO PEREIRA DO NASCIMENTO,Introduction to the Robotica 2018 Special Issue
-TIAGO PEREIRA DO NASCIMENTO,Dynamic Leader Allocation in Multi-Robot Systems Based on Nonlinear Model Predictive Control
-TIAGO PEREIRA DO NASCIMENTO,Nursing information systems and quality indicators: contributions and challenges
-TIAGO PEREIRA DO NASCIMENTO,Monitoring Stress and Promoting Awareness at the Workplace
-TIAGO PEREIRA DO NASCIMENTO,An Analysis of the Numeric Solver Choice for an NMPC Controlled Non-holonomic Robot Formation
-TIAGO PEREIRA DO NASCIMENTO,Non-linear model predictive formation control applied to non-holonomic autonomous mobile robots
-TIAGO PEREIRA DO NASCIMENTO,An Embedded Nonlinear Model Predictive Formation Controller for Low-Cost Architectures
-TIAGO PEREIRA DO NASCIMENTO,The man in middle age: what to expect?
-TIAGO PEREIRA DO NASCIMENTO,157 SEXUAL SATISFACTION IN MIDDLE AGE
-TIAGO PEREIRA DO NASCIMENTO,Program matching through code analysis and artificial neural networks
-TIAGO PEREIRA DO NASCIMENTO,LEADER FOLLOWING FORMATION CONTROL FOR OMNIDIRECTIONAL MOBILE ROBOTS
-TIAGO PEREIRA DO NASCIMENTO,Rastreabilidade de códigos executáveis usando redes neurais
-TIAGO PEREIRA DO NASCIMENTO,Validação de software em Metrologia Legal
-TIAGO PEREIRA DO NASCIMENTO,"Proteção, rastreabilidade de verificação de integridade de dispositivos com software embarcado"
-TIAGO PEREIRA DO NASCIMENTO,A Review on Vision-Based Control for Multi-Rotor Aerial Vehicles
-TIAGO PEREIRA DO NASCIMENTO,Self-Organized UAV Flocking Based Only on Relative Range and Bearing
-TIAGO PEREIRA DO NASCIMENTO,LaSER Team Description Paper for the RoboCup Brazil Open Flying Robot League 2019
-TIAGO PEREIRA DO NASCIMENTO,Robótica educacional: de uma experiência curricular à gestão da universalização em uma rede municipal de ensino
-TIAGO PEREIRA DO NASCIMENTO,LARS/SBR/WRE 2018
-TIAGO PEREIRA DO NASCIMENTO,MODELAGEM DE ESTRATÉGIA PARA CONTROLE DE AGENTES COOPERATIVOS
-TIAGO PEREIRA DO NASCIMENTO,CONTROLE MULTIVARIÁVEL DE TRAJETÓRIA PARA ROBÔS MÓVEIS OMNI-DIRECIONAIS
-TIAGO PEREIRA DO NASCIMENTO,Controlador Lógico Fuzzy de Agentes Cooperativos (ENECA06-2101)
-TIAGO PEREIRA DO NASCIMENTO,Um Controlador Fuzzy para o Robô Móvel Omni-direcional AxeBot
-TIAGO PEREIRA DO NASCIMENTO,MECATEAM F-180: A MULTI-ROBOT SYSTEM FOR ROBOCUP F-180 SMALL SIZE LEAGUE
+THAIS GAUDÊNCIO,Origin and evolution of RNA-dependent RNA polymerase
+THAIS GAUDÊNCIO,Origin and evolution of the Peptidyl Transferase Center from proto-tRNAs
+THAIS GAUDÊNCIO,tRNA core hypothesis for the transition from the RNA world to the ribonucleoprotein world
+THAIS GAUDÊNCIO,Predicting gene expression in T cell differentiation from histone modifications and transcription factor binding affinities by linear mixture models
+THAIS GAUDÊNCIO,A novel method to predict genomic islands based on mean shift clustering algorithm
+THAIS GAUDÊNCIO,Evolution of transfer RNA and the origin of the translation system
+THAIS GAUDÊNCIO,Predição de desempenho de alunos do primeiro período baseado nas notas de ingresso utilizando métodos de aprendizagem de máquina
+THAIS GAUDÊNCIO,Origin of the 16S ribosomal molecule from ancestor tRNAs
+THAIS GAUDÊNCIO,Peptidyl transferase center and the emergence of the translation system
+THAIS GAUDÊNCIO,Inferring epigenetic and transcriptional regulation during blood cell development with a mixture of sparse linear models
+THAIS GAUDÊNCIO,Thermo-search: lifestyle and thermostability analysis
+THAIS GAUDÊNCIO,Uma abordagem para a previsão de desempenho de alunos de Computação em disciplinas de programação
+THAIS GAUDÊNCIO,Identificação de estudantes do primeiro semestre com risco de evasão através de técnicas de Data Mining
+THAIS GAUDÊNCIO,Machine generation of audio description for blind and visually impaired people
+THAIS GAUDÊNCIO,Sovereign risk ratings’ country classification using machine learning
+THAIS GAUDÊNCIO,Structural evolution of Glycyl-tRNA synthetases alpha subunit and its implication in the initial organization of the decoding system
+THAIS GAUDÊNCIO,Percepção do conhecimento dos alunos de ensino médio do município de João Pessoa-PB sobre temas emergentes em biotecnologia
+THAIS GAUDÊNCIO,Origin of the 16S ribosomal molecule from ancestor tRNAs
+THAIS GAUDÊNCIO,A study on the use of sequence-to-sequence neural networks for automatic translation of brazilian portuguese to libras
+THAIS GAUDÊNCIO,"Análise farmacológica e toxicológica in silico do flavonoide 5-hidroxi-4’, 7-dimetoxiflavona"
+THAIS GAUDÊNCIO,A proposal of the proteome before the last universal common ancestor (LUCA)
+THAIS GAUDÊNCIO,In Silico Approach for the Identification of Potential Targets and Specific Antimicrobials for Streptococcus mutans
+THAIS GAUDÊNCIO,RNAmining: A machine learning stand-alone and web server tool for RNA coding potential prediction
+THAIS GAUDÊNCIO,An overview of databases and bioinformatics tools for plant antimicrobial peptides
+THAIS GAUDÊNCIO,A multiple stream architecture for the recognition of signs in Brazilian sign language in the context of health
+THAIS GAUDÊNCIO,Predição de sucesso de estudantes cotistas utilizando algoritmos de classificação
+THAIS GAUDÊNCIO,Single-cell transcriptional landscape of long non-coding RNAs orchestrating mouse heart development
+THAIS GAUDÊNCIO,"Structural analysis of a novel N-carbamoyl-D-amino acid amidohydrolase from a Brazilian Bradyrhizobium japonicum strain: in silico insights by molecular modelling, docking and molecular dynamics"
+THAIS GAUDÊNCIO,Evasao de estudantes universitários: diagnóstico a partir de dados acadêmicos e socieconômicos
+THAIS GAUDÊNCIO,Evolution of transfer RNA and the origin of the translation system. Front Genet 5: 303
+THAIS GAUDÊNCIO,CORAZON: a web server for data normalization and unsupervised clustering based on expression profiles
+THAIS GAUDÊNCIO,Analysis of rule-based machine translation and neural machine translation approaches for translating portuguese to libras
+THAIS GAUDÊNCIO,Using convolutional neural networks for fingerspelling sign recognition in brazilian sign language
+THAIS GAUDÊNCIO,A deep learning approach to detect hyoid bone in ultrasound exam
+THAIS GAUDÊNCIO,Neural decoding with SVM and feature selection in a rat active tactile discrimination task
+THAIS GAUDÊNCIO,Information theory-based detection of noisy bit planes in medical images
+THAIS GAUDÊNCIO,""" O cortinão do Watson"": construindo a competência para comunicar o conhecimento científico"
+THAIS GAUDÊNCIO,Comparing gradient boosting algorithms to forecast sales in retail
+THAIS GAUDÊNCIO,Evaluating data representations for object recognition during pick-and-place manipulation tasks
+THAIS GAUDÊNCIO,Novel Perlin-based Phantoms Using 3D Models of Compressed Breast Shape and Fractal Noise
+THAIS GAUDÊNCIO,Automatic Segmentation of Mammary Tissue using Computer Simulations of Breast Phantoms and Deep-learning Techniques.
+THAIS GAUDÊNCIO,Representation of complex mammary parenchyma texture in tomosynthesis using simplex noise simulations
+THAIS GAUDÊNCIO,League of legends: an application of classification algorithms to verify the prediction importance of main in-game variables
+THAIS GAUDÊNCIO,A Two-Stream Model Based on 3D Convolutional Neural Networks for the Recognition of Brazilian Sign Language in the Health Context
+THAIS GAUDÊNCIO,The structural proteome for the primordial glycolysis/gluconeogenesis
+THAIS GAUDÊNCIO,Prediction of potential thermostable proteins in Xylella fastidiosa
+THAIS GAUDÊNCIO,Impact of tomosynthesis acquisition on 3D segmentations of breast outline and adipose/dense tissue with AI: A simulation-based study
+THAIS GAUDÊNCIO,Multiclass segmentation of suspicious findings in simulated breast tomosynthesis images using a U-Net
+THAIS GAUDÊNCIO,Automatic recognition of units of measurement in product descriptions from tax invoices using neural networks
+THAIS GAUDÊNCIO,Identification of speechless intervals in audio tracks using convolutional neural networks
+THAIS GAUDÊNCIO,Previsão de Valores de Aquisições Governamentais: o Uso dos Conceitos de Data Science e Machine Learning
+THAIS GAUDÊNCIO,Avaliação de Algoritmos de Clusterização para Agrupamento de Descrições de Produtos em Notas Fiscais Eletrônicas
+THAIS GAUDÊNCIO,Long-term demand forecasting applied to a retail company using Prophet
+THAIS GAUDÊNCIO,Previsão de demanda de longo prazo aplicada a uma empresa do varejo de cosméticos utilizando o Prophet
+THAIS GAUDÊNCIO,Evaluating Deep Learning-based Chess-Engine Endgame Strategies
+THAIS GAUDÊNCIO,Multiclass Segmentation of Breast Tissue and Suspicious Findings: A Simulation-Based Study for the Development of Self-Steering Tomosynthesis
+THAIS GAUDÊNCIO,Automatic Recognition of Units
+THAIS GAUDÊNCIO,Iris-CV: Classifying Iris Flowers Is Not as Easy as You Thought
+THAIS GAUDÊNCIO,Portal para exposição de infográficos interativos dos dados das proposições da Câmara dos Deputados
+THAIS GAUDÊNCIO,Detecção de ilhas genômicas em procariotos utilizando o método Expectation-Maximization
+THAIS GAUDÊNCIO,Abordagem passiva para reconhecimento de adulterações em imagens digitais através da análise do padrão CFA e do BAG
+THAIS GAUDÊNCIO,Passive approach to recognition of tampering in digital images through the CFA and BAG standard analysis
+THAIS GAUDÊNCIO,Assessment of volumetric dense tissue segmentation in tomosynthesis using deep virtual clinical trials
+THAIS GAUDÊNCIO,Predição de sucesso de estudantes cotistas utilizando algoritmos de classificação
+THAIS GAUDÊNCIO,Supplement: Inferring Epigenetic and Transcriptional Regulation during Blood Cell Development with a Mixture of Sparse Linear Models
+THAIS GAUDÊNCIO,Reconhecimento de adulteração de imagens JPEG através da inconsistência do Block Artifact Grid
+THAIS GAUDÊNCIO,Bioinformatics for the identification of antimicrobial targets in oral bacteria
+GILBERTO FARIAS,An efficient heuristic for the ring star problem
+GILBERTO FARIAS,Hybrid metaheuristic for bicluster editing problem
+GILBERTO FARIAS,Introdução à computação
+GILBERTO FARIAS,New algorithms for the minimum coloring cut problem
+GILBERTO FARIAS,New heuristics for the bicluster editing problem
+GILBERTO FARIAS,Branch-and-cut approaches for p-cluster editing
+GILBERTO FARIAS,Métodos exatos aplicados ao problema do corte global rotulado mınimo
+GILBERTO FARIAS,A parallel hybrid metaheuristic for bicluster editing
+GILBERTO FARIAS,Otimização e implementação de um sistema de alocação ótima de serviços públicos utilizando a metaheurística Grasp
+GILBERTO FARIAS,The biclique partitioning polytope
+GILBERTO FARIAS,Efficient heuristics for the minimum labeling global cut problem
+GILBERTO FARIAS,Uma Metaheurística GRASP para Otimização de Sistemas Orientados a Componentes de Software
+GILBERTO FARIAS,"SILVA, Linconl David Nery e; SOUSA FILHO, Gilberto Farias de"
+GILBERTO FARIAS,Classificação de fraudes em licitações públicas através do agrupamento de empresas em conluios
+GILBERTO FARIAS,Introdução à Computação. 2014
+GILBERTO FARIAS,Declawing a graph: polyhedra and Branch-and-Cut algorithms
+GILBERTO FARIAS,Algoritmos de Planos de Corte para o Problema Livre de Garra
+GILBERTO FARIAS,Um Avaliador Automático de Eﬁciência de Algoritmos para Ambientes Educacionais de Ensino de Programação
+GILBERTO FARIAS,Modelagem de Funcionalidades de Sistema Hipermídia Adaptativa para o Interpretador Gráfico de Estrutura de Dados
+GILBERTO FARIAS,Metaheuristic GRASP for the Bicluster Editing Problem
+GILBERTO FARIAS,Desenvolvimento de um Interpretador de Comandos e Avaliador Gráfico para o Ensino de Estrutura de Dados (IGED)
+GILBERTO FARIAS,Uma metaheurística GRASP para configuração de um serviço de distribuição de vídeo baseado em replicação móvel
+GILBERTO FARIAS,Solving the minimum labeling global cut problem by mathematical programming
+GILBERTO FARIAS,Classificador de notificações de acidentes ambientais no Sistema Nacional de Emergências Ambientais do IBAMA
+GILBERTO FARIAS,Identificação de fraudes em licitações: uma abordagem utilizando agrupamento por interseção
+GILBERTO FARIAS,Sistema de apoio à decisão clínica para manejo e encaminhamento de nódulos tireoidianos
+GILBERTO FARIAS,Algoritmo Genético para o Problema da Árvore de Cobertura com Representação Mínima
+GILBERTO FARIAS,Métodos Exatos para o Problema da Árvore de Cobertura com Representação Mínima
+GILBERTO FARIAS,PROPOSTA DE SOLUÇÃO PARA UTILIZAÇÃO DE REGISTRO DE OCORRÊNCIAS POLICIAIS PARA AUXILIAR NO PROCESSO DECISÓRIO GERENCIAL NO ÂMBITO DA SEGURANÇA PÚBLICA
+GILBERTO FARIAS,Métodos Exatos para o Problema do Diâmetro Colorido
+GILBERTO FARIAS,Solving the minimum labeling global cut problem by mathematical programming
+GILBERTO FARIAS,Formulação baseada em fechos cromáticos para o problema do corte global rotulado mínimo
+GILBERTO FARIAS,Nova formulação para o Problema de Cobertura por Ciclos Rainbow
+GILBERTO FARIAS,Um estudo de caso sobre a avaliação energética de software como uma contribuição à Computação Verde
+GILBERTO FARIAS,Optimization and implementation of a system for allocating services integrated with the Google Maps service
+GILBERTO FARIAS,METAHEURÍSTICAS SEQUENCIAS E PARALELAS PARA A CONFIGURAC AO DE UM SERVICO DE DISTRIBUIC AO DE VÍDEO DIGITAL AO VIVO.
+GILBERTO FARIAS,Modelos e Heurísticas para o Problema de Alocação Dinâmica de Espaços
+GILBERTO FARIAS,DIGITAL DATA NETWORKS DESIGN USING HYBRID METAHEURISTIC
+GILBERTO FARIAS,Uma Abordagem Híbrida Aplicada ao Problema da Alocação Dinâmica de Espaços
+GILBERTO FARIAS,GRASP com memoria adaptativa aplicada ao problema de particionamento de grafos bipartidos por ediç ao de arestas
+GILBERTO FARIAS,ESTRATÉGIAS PARALELAS E EFICIENTES PARA A CONFIGURAÇÃO DE UM SERVIÇO DE DISTRIBUIÇÃO DE VÍDEO BASEADO EM REPLICAÇÃO MÓVEL
+GILBERTO FARIAS,ABORDAGENS HEURÍSTICAS APLICADAS AO PROBLEMA GERAL DE DIMENSIONAMENTO E PROGRAMAÇÃO DE LOTES
+GILBERTO FARIAS,Integer Programming Formulation and GRASP for the Non-Automatic Bicluster Editing Problem
+GILBERTO FARIAS,Meta-heurıstica GRASP para o problema de particionamento de grafos por ediçao de arestas
+GILBERTO FARIAS,METAHEURÍSTICAS ILS E ACS PARA GERAÇÃO DE CONFIGURAÇÕES OTIMIZADAS PARA SISTEMAS ORIENTADOS A COMPONENTES
+GILBERTO FARIAS,Abordagem Hıbrida para o Poblema daArvore Geradora com Rotulaçao Mınima
+GILBERTO FARIAS,Hybrid metaheuristics
+GILBERTO FARIAS,ESTRATÉGIA PARALELA PARA UMA METAHEURÍSTICA HÍBRIDA USADA NA CONFIGURAÇÃO DE UM SERVIÇO DE DISTRIBUIÇÃO DE VÍDEO
+GILBERTO FARIAS,Uma Arquitetura Hierárquica e Distribuída para um Serviço de Distribuição de Vídeo ao Vivo
+GILBERTO FARIAS,BRANCH-AND-PRICE APLICADO AO PROBLEMA DE PARTICIONAMENTO DE BIGRAFOS POR EDIC AO DE ARESTAS
+GLEDSON ELIAS,A recommendation framework for allocating global software teams in software product line projects
+GLEDSON ELIAS,X-arm: an asset representation model for component repository systems
+GLEDSON ELIAS,A systematic review of software product lines applied to mobile middleware
+GLEDSON ELIAS,Performance issues of ad hoc routing protocols in a network scenario used for videophone applications
+GLEDSON ELIAS,Big videos on small networks. a hierarchical and distributed architecture for a video on demand distribution service
+GLEDSON ELIAS,Arquitetura e Protocolos de Rede TCP-IP
+GLEDSON ELIAS,A layered routing architecture for infrastructure wireless mesh networks
+GLEDSON ELIAS,An XML-based component specification model for an adaptive middleware of interactive digital television systems
+GLEDSON ELIAS,"Spontaneous software: a Web-based, object computing paradigm"
+GLEDSON ELIAS,"Exploring an open, distributed multimedia framework to design and develop an adaptive middleware for interactive digital television systems"
+GLEDSON ELIAS,A risk-driven multi-objective evolutionary approach for selecting software requirements
+GLEDSON ELIAS,Um Serviço de Repositório Compartilhado e Distribuído para Suporte ao Desenvolvimento Baseado em Componentes
+GLEDSON ELIAS,A Configuration Distribution System for Heterogeneous Networks.
+GLEDSON ELIAS,A fuzzy-based approach for selecting technically qualified distributed software development teams
+GLEDSON ELIAS,"Clustering large-scale, distributed software component repositories"
+GLEDSON ELIAS,Simulation-based performance evaluation of the SNDP protocol for infrastructure WMNs
+GLEDSON ELIAS,Integrating communication paradigms in a mobile middleware product line
+GLEDSON ELIAS,Um framework de recomendação para alocação de equipes de desenvolvimento em projetos distribuídos de linhas de produto de software
+GLEDSON ELIAS,Qos specification and management in a middleware for distributed multimedia systems
+GLEDSON ELIAS,"A Component-Based Configuration Framework for Open, Distributed Multimedia Systems"
+GLEDSON ELIAS,Indexing Semi-Structured Data for Efficient Handling of Branching Path Expressions
+GLEDSON ELIAS,A Scalable Neighborhood Discovery Protocol for Infrastructure Wireless Mesh Networks
+GLEDSON ELIAS,A management and configuration infrastructure for RNP’s digital video distribution service
+GLEDSON ELIAS,A Component Interconnection Model for Interactive Digital Television
+GLEDSON ELIAS,ComponentForge: Um Framework Arquitetural para Desenvolvimento Distribuído Baseado em Componentes. VI Workshop de Desenvolvimento Baseado em Componentes. Recife-PE
+GLEDSON ELIAS,Um serviço CORBA para Descoberta de Componentes
+GLEDSON ELIAS,"A quantitative, evidence-based approach for recommending software modules"
+GLEDSON ELIAS,Large software component repositories into small index files
+GLEDSON ELIAS,A search service for software components based on a semi-structured data representation model
+GLEDSON ELIAS,Análise de Repositórios de Componentes para a Identificação das Soluções mais Adotadas
+GLEDSON ELIAS,"A component-based configuration and management framework for open, distributed multimedia systems"
+GLEDSON ELIAS,Cosmos: Um Framework para Configuração e Gerenciamento de Sistemas Multimídia Distribuídos Abertos
+GLEDSON ELIAS,A metacomponent model to support the extensibility and evolvability of networked applications
+GLEDSON ELIAS,Selection and allocation of people based on technical and personality profiles for software development projects
+GLEDSON ELIAS,"A Multi-Objective, Risk-based Approach for Selecting Software Requirements."
+GLEDSON ELIAS,An ontology for the recommendation of technically qualified teams in distributed software projects
+GLEDSON ELIAS,Suporte à Certificação de Componentes no Modelo de Representação X-ARM
+GLEDSON ELIAS,"Sharing Software Components Using a Service-Oriented, Distributed and Secure Infrastructure"
+GLEDSON ELIAS,X-ARM: A step towards reuse of commercial and open source components
+GLEDSON ELIAS,"Improving reuse of off-the-shelf components with shared, distributed component repository systems"
+GLEDSON ELIAS,Uma arquitetura de Middleware para sistemas de televisão interativa
+GLEDSON ELIAS,CoDelivery: an environment for distribution of reusable components
+GLEDSON ELIAS,An Automated Approach for Selecting Bugs in Component-Based Software Projects
+GLEDSON ELIAS,Uso de Atributos Não-técnicos na Alocação de Equipes em Projetos de Desenvolvimento Distribuído de Software
+GLEDSON ELIAS,Uma Abordagem Baseada em Lógica Nebulosa para Seleção de Equipes Distribuídas Tecnicamente Qualificadas
+GLEDSON ELIAS,Customizing message-oriented mobile middleware
+GLEDSON ELIAS,Towards a mobile middleware product line: A requirement analysis
+GLEDSON ELIAS,"An Extensible, Multi-paradigm Message-oriented Mobile Middleware."
+GLEDSON ELIAS,Um Modelo de Metadados para Representação de Componentes de Software
+GLEDSON ELIAS,Componentforge: Um framework arquitetural para desenvolvimento distribuiçao baseado em componentes
+GLEDSON ELIAS,Uma arquitetura para configuração e gerenciamento de recursos em um Middleware para sistemas de televisão digital interativa
+GLEDSON ELIAS,A Risk-Based Approach for Selecting Software Requirements
+GLEDSON ELIAS,Uma Ontologia para Recomendação de Equipes Tecnicamente Qualificadas em Projetos Distribuídos de Software
+GLEDSON ELIAS,"Experimental Evaluation of a Multi-paradigm, Message-Oriented Mobile Middleware"
+GLEDSON ELIAS,Uma Técnica de Indexação de Artefatos de Software Baseada em Dados Semi-Estruturados
+GLEDSON ELIAS,Um Relato de Experiência com uma Infra-Estrutura para Desenvolvimento Distribuído Baseado em Componentes
+GLEDSON ELIAS,Uma Ferramenta de Configuração e Gerenciamento de Serviços de Distribuição de Vídeo Digital
+GLEDSON ELIAS,A meta-component model for dynamic adaptation support in a middleware system for interactive tv
+GLEDSON ELIAS,Um Modelo de Interconexão de Componentes e sua Implementação em um Middleware para para Sistemas de Televisão Digital Interativa
+GLEDSON ELIAS,A Context Data Metamodel for Distributed Middleware Platforms in Smart Cities
+GLEDSON ELIAS,Evaluating an Application Ontology for Recommending Technically Qualified Distributed Development Teams
+GLEDSON ELIAS,"BranchGuide: an indexing technique for efficient, lossless processing of branching path queries"
+GLEDSON ELIAS,Simulation-Based Performance Evaluation of the MLSD Protocol for Infrastructure WMNs
+GLEDSON ELIAS,Usando hill climbing para identificação de componentes de software similares
+GLEDSON ELIAS,MLSD: A Network Topology Discovery Protocol for Infrastructure Wireless Mesh Networks
+GLEDSON ELIAS,A Layered Routing Architecture for Infrastructure Wireless Mesh Networks
+GLEDSON ELIAS,Turning Large Software Component Repositories into Small Index Files
+GLEDSON ELIAS,A component interconnection model for interactive digital television systems
+GLEDSON ELIAS,An Automated Approach for Selecting Web Services
+GLEDSON ELIAS,Alocando Equipes Distribuídas com base em Aspectos Não-Técnicos
+GLEDSON ELIAS,Uma Estratégia de Otimização para Agrupamento de Componentes de Software Baseada em DSM
+GLEDSON ELIAS,Uma Ferramenta para Propagação da Percepção em Projetos de Software Através de Microblogs
+GLEDSON ELIAS,Uma Arquitetura de Interconexão de Componentes em Ambientes Multimídia Distribuídos
+GLEDSON ELIAS,Um Ambiente de Execução de Componentes JavaBeans
+GLEDSON ELIAS,Um Protocolo de Descoberta de Vizinhança Escalável para Redes em Malha Sem Fio Infra-Estruturadas
+GLEDSON ELIAS,Suporte a Relacionamentos entre Equipes Distribuídas em um Repositório de Componentes de Software
+GLEDSON ELIAS,Uma Arquitetura Hierárquica e Distribuída para um Serviço de Distribuição de Vídeo ao Vivo
+GLEDSON ELIAS,Uma Infra-estrutura Colaborativa de Apoio ao Desenvolvimento Distribuído Baseado em Componentes
+GLEDSON ELIAS,Explorando Técnicas de Agrupamento de Dados na Indexação de Repositórios de Componentes de Software
+GLEDSON ELIAS,"Wireless Mesh Networks 2010 Part 7 ppt Bạn đang xem bản rút gọn của tài liệu. Xem và tải ngay bản đầy đủ của tài liệu tại đây (1.22 MB, 20 trang)"
+TEOBALDO BULHÕES,The static bike relocation problem with multiple vehicles and visits
+TEOBALDO BULHÕES,The vehicle routing problem with service level constraints
+TEOBALDO BULHÕES,A branch-and-price algorithm for the minimum latency problem
+TEOBALDO BULHÕES,A hybrid algorithm for the multi-depot heterogeneous dial-a-ride problem
+TEOBALDO BULHÕES,On the exact solution of a large class of parallel machine scheduling problems
+TEOBALDO BULHÕES,On the complete set packing and set partitioning polytopes: Properties and rank 1 facets
+TEOBALDO BULHÕES,Exact approaches for single machine total weighted tardiness batch scheduling
+TEOBALDO BULHÕES,A unified exact approach for a broad class of vehicle routing problems with simultaneous pickup and delivery
+TEOBALDO BULHÕES,New heuristics for the Bicluster Editing Problem
+TEOBALDO BULHÕES,Branch-and-cut approaches for p-cluster editing
+TEOBALDO BULHÕES,Conference scheduling: A clustering-based approach
+TEOBALDO BULHÕES,Scheduling the Brazilian OR conference
+TEOBALDO BULHÕES,Branch-and-price for p-cluster editing
+TEOBALDO BULHÕES,Exact and heuristic algorithms for minimizing the makespan on a single machine scheduling problem with sequence-dependent setup times and release dates
+TEOBALDO BULHÕES,A parallel hybrid metaheuristic for bicluster editing
+TEOBALDO BULHÕES,A new family of route formulations for split delivery vehicle routing problems
+TEOBALDO BULHÕES,The biclique partitioning polytope
+TEOBALDO BULHÕES,An efficient hybrid genetic algorithm for the traveling salesman problem with release dates
+TEOBALDO BULHÕES,Cluster Editing
