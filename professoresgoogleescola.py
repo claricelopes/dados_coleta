@@ -2,21 +2,13 @@ from scholarly import scholarly
 import csv
 import time
 
-# Lista com os professores
+# Lista com apenas Tiago Pereira do Nascimento
 professores = [
-    {"nome": "THAIS GAUDÊNCIO", "user_id": "93u15fEAAAAJ"},
-    {"nome": "GILBERTO FARIAS", "user_id": "N2wRsIoAAAAJ"},
-    {"nome": "GLEDSON ELIAS", "user_id": "S1H198kAAAAJ"},
-    {"nome": "TEOBALDO BULHÕES", "user_id": "T9vkFzQAAAAJ"}
+    {"nome": "TIAGO PEREIRA DO NASCIMENTO", "user_id": "k5hP6gUAAAAJ"}
 ]
 
-# Criar novo arquivo CSV com cabeçalho
-with open("artigomais.csv", "w", newline="", encoding="utf-8") as csvfile:
-    campos = ["Professor", "Artigo"]
-    writer = csv.DictWriter(csvfile, fieldnames=campos)
-    writer.writeheader()
-
-# Coletar artigos dos professores
+# Não recriar o CSV — apenas adicionar
+# Coletar artigos do professor
 for prof in professores:
     nome = prof["nome"]
     user_id = prof["user_id"]
