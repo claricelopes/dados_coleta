@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 import time
 import datetime
 driver = webdriver.Chrome() 
-
+# scraping do google academico
 dados = []
 
 nomes = [

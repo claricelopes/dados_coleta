@@ -1,7 +1,7 @@
 
 from collections import defaultdict
 import matplotlib.pyplot as plt
-
+# gera grafico com as palavras que mais aparecem nos titulos dos artigos
 dados = """
 poroso: 24
 móvel: 23
