@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-
+#professores que mais publicaram
 with open('analise.txt', 'r', encoding='utf-8') as file: # Atualizar
     linhas = file.readlines()
 

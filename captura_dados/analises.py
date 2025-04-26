@@ -1,5 +1,5 @@
 import pandas as pd
-
+#numero de artigos de cada professor
 nome_arquivo_artigos = 'artigos_20250407_230338.csv'  # Atualizar
 
 df = pd.read_csv(nome_arquivo_artigos)

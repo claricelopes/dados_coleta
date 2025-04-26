@@ -1,7 +1,7 @@
 import csv
 import re
 from collections import Counter
-
+#coletando palavras que mais aparecem 
 stopwords = set([
     'de', 'da', 'do', 'e', 'a', 'o', 'em', 'com', 'para', 'por', 'na', 'no',
     'das', 'dos', 'as', 'os', 'uma', 'um', 'sobre', 'que', 'se', 'entre', 
