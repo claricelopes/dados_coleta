@@ -1,6 +1,6 @@
 import pandas as pd
 import datetime
-
+# nome do professor e nome de cada artigo
 caminho_arquivo = 'resultados/resultado_20250321_202721.csv' # Atualizar
 
 with open(caminho_arquivo, 'r', encoding='utf-8') as f:
