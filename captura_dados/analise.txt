@@ -74,7 +74,8 @@
 
 
 -------------//---------------
-TOTAL ARTIGOS - 2.501
+TOTAL ARTIGOS - 2.501 
+TOTAL DE PROFESSORES - 33
 PROFS QUE PRODUZIRAM - 33/66
 MEDIA DE ARTIGOS - 75,7
 
@@ -119,3 +120,6 @@ suporte: 29
 simuladores: 29
 audiovisual: 29
 on-line: 28
+
+
+- **Extração de Autores:** Com base no campo 'Autores', grupo de professores foram armazenados no arquivo autores_todos.csv.
