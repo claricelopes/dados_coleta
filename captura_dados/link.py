@@ -19,7 +19,6 @@ print(df[['Artigo', 'Coautores']].head())
 
 import networkx as nx
 
-# Criar o grafo
 G = nx.Graph()
 
 for coautores in df['Coautores']:
